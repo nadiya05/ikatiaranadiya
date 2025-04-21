@@ -23,11 +23,11 @@ jobs:
               mkdir -p /var/www/html/cicd
             fi
 
-            if [ ! -d "/var/www/html/cicd/ika_nadiya_tiara" ]; then
-              mkdir -p /var/www/html/cicd/ika_nadiya_tiara
+            if [ ! -d "/var/www/html/cicd/ikatiaranadiya" ]; then
+              mkdir -p /var/www/html/cicd/ikatiaranadiya
             fi
 
-            cd /var/www/html/cicd/ika_nadiya_tiara
+            cd /var/www/html/cicd/ikatiaranadiya
 
             if [ ! -d ".git" ]; then
               git clone https://github.com/${{ github.repository }}.git .
